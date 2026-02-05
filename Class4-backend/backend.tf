@@ -3,5 +3,6 @@ terraform {
     bucket = "kaizen-adileta"
     key    = "hello/terraform.tfstate"
     region = "us-east-1"
+    use_lockfile = true
   }
 }
